@@ -1,0 +1,26 @@
+if(gameModeInput === 'player2'){
+ 
+    function player1Turn1 () {
+        
+        let player1Input = prompt(`Player 1 please make your choice between "rock", "paper" or "scissors"`);
+      console.log(player1Input);
+      
+      let playerChoice = player1Input.toLowerCase();
+      console.log(playerChoice);
+
+      if (playerChoice === r || playerChoice === p  || playerChoice === s) {
+        alert("Player 2 Get Ready");}
+
+        else {alert("Invalid Input, please refesh the page and start the game again")}}}
+        
+    function player2Turn1 () {
+
+        let player2Input = prompt(`Player 2 please make your choice between "rock", "paper" or "scissors"`);
+      console.log(player2Input);
+      
+      let player2Choice = player2Input.toLowerCase();
+      console.log(player2Choice);
+
+      if (player2Choice === r || player2Choice === p  || player2Choice === s) {
+        alert('Awaiting Results');}
+        else {alert("Invalid Input, please refesh the page and start the game again")}    } 
